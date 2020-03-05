@@ -78,3 +78,9 @@ h1 {
     font-size: 40px;
 }
 
+
+@media screen and (max-width: 1366px) {
+    .navbar {
+        height: 60vh;
+    }
+}
