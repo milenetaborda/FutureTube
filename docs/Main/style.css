@@ -1,9 +1,15 @@
 
+
 section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    max-width: 20vw auto;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)) ;
+    margin-left: 200px;
+}
+
+main h1 {
+    margin-left: 275px;
+    font-size: 1.5em;
+    padding-top: 35px;
 }
 
 div span{
@@ -12,12 +18,13 @@ div span{
    color: #eee;
 }
 
+
 section div img{
-    width: 20vw;
+    width: 100%;
 } 
 
-section div {             
-    margin: 5px auto;
+section div {          
+    margin: 1vh 1vw;
     border: 1px solid saddlebrown;
     padding-bottom: 15px;  
 }
